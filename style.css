@@ -1,0 +1,78 @@
+body{
+    margin: ;
+}
+.wrapper{
+    width:1500px;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:50px 600px ;
+}
+.col1{
+grid-column-start:1;
+grid-column-end:3 ;
+grid-row-start:1 ;
+grid-row-end: 3;
+border-color: rgb(137, 152, 147);
+padding: 20px;
+}
+.col2{
+    background-color: rgba(234, 234, 240, 0.167);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.col1 a{
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 600;
+   position: relative;
+   left: 600px;
+ margin-left: 30px;
+ padding: 20px;
+}
+a:hover{
+    color: rgb(192, 128, 128);
+}
+span{
+    font-size: 25px;
+    font-weight: 700;
+}
+.col2 span b{
+    color: rgb(50, 212, 212);
+}
+.col2 div{
+   
+    width: 490px;
+    height: 240px;
+    margin-top: 150px;
+    margin-left: 200px; 
+}
+p{
+    font-weight: 600;
+    color: rgb(117, 110, 100);
+}
+h3{
+    font-size: 35px;
+}
+.col2 span{
+    font-size: 35px;
+}
+.profimg{
+    position: relative;
+    bottom: 400px;
+    left: 400px;
+     
+}
+i{
+    color: black;
+    margin-left: 20px;
+    font-size: 20px;
+}
+i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
